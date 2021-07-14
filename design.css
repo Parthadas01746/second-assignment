@@ -1,0 +1,151 @@
+
+/******************************* common part 
+*****************************************************************/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/************************
+  header section 
+*************************/
+.first-part:hover{
+    transform: scale(0.9);
+    transition: 2s;
+
+}
+.logout i{
+    font-size:30px;
+    color: white;
+}
+
+.top{
+    display: flex;
+    background: rgba(45, 37, 160, 1);
+    width: 1440px;
+    height: 677px;
+}
+.top-introduction{
+    display: flex;
+    
+}
+
+.introduction{
+    width: 485px;
+    font-size: 40px;
+    height: 230px;
+    margin-top: 207px;
+    margin-left: 156px;
+}
+.button-part{
+    display: flex;
+    justify-content: center;
+}
+.button:hover{
+    transform: scale(1.2);
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    background: rgba(224, 44, 109, 1);
+
+    width: 168px;
+    height: 44px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.button i{
+    color: white;
+    margin-left: 10px;
+}
+
+.header-photo img{
+    width: 556px;
+    height: 438px;
+}
+.header-photo{
+    margin-right: 140px;
+    margin-top: 100px;
+    margin-left: 102px;
+}
+
+ /************************************************************ Middle part  */
+            /* ------------------------------------------------------------------> */
+ .second-part{
+       display: flex;
+    justify-content: center;
+    
+                
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    }
+
+.player-back{
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 370px;
+    height: 500px;
+    
+}
+
+
+.player{
+    margin: 50px;
+    width: 330px;
+    height: 474px;
+    
+}
+.player-img img{
+    width: 300px;
+    height: 256px;
+    
+}
+/*************************** footer
+******************************** */
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo img{
+    width: 483px;
+    height: 110px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon i{
+    width: 30px;
+    height: 30px;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    color: gray;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+/* media quary */
+@media only screen and (max-width:688px) {
+    main{
+        width: 100%;}
+    .top-players{
+         grid-template-columns: repeat(2,1fr);
+         margin-left: 1100px;
+    }
+   footer{
+       margin-left: 750px;
+   }
+   
+}
